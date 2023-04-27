@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="metier.CalculTest" time="0.036" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\xps\Desktop\Maven-Project\target\test-classes;C:\Users\xps\Desktop\Maven-Project\target\classes;C:\Users\xps\.m2\repository\org\springframework\spring-core\5.3.16\spring-core-5.3.16.jar;C:\Users\xps\.m2\repository\org\springframework\spring-jcl\5.3.16\spring-jcl-5.3.16.jar;C:\Users\xps\.m2\repository\org\springframework\spring-context\5.3.19\spring-context-5.3.19.jar;C:\Users\xps\.m2\repository\org\springframework\spring-aop\5.3.19\spring-aop-5.3.19.jar;C:\Users\xps\.m2\repository\org\springframework\spring-expression\5.3.19\spring-expression-5.3.19.jar;C:\Users\xps\.m2\repository\org\springframework\spring-beans\5.3.20\spring-beans-5.3.20.jar;C:\Users\xps\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\xps\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Temurin"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Africa/Casablanca"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IE"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jre-8.0.322.6-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\xps\AppData\Local\Temp\surefire6626939454735599229\surefirebooter-20230418015023494_3.jar C:\Users\xps\AppData\Local\Temp\surefire6626939454735599229 2023-04-18T01-50-23_397-jvmRun1 surefire-20230418015023494_1tmp surefire_0-20230418015023494_2tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\xps\Desktop\Maven-Project\target\test-classes;C:\Users\xps\Desktop\Maven-Project\target\classes;C:\Users\xps\.m2\repository\org\springframework\spring-core\5.3.16\spring-core-5.3.16.jar;C:\Users\xps\.m2\repository\org\springframework\spring-jcl\5.3.16\spring-jcl-5.3.16.jar;C:\Users\xps\.m2\repository\org\springframework\spring-context\5.3.19\spring-context-5.3.19.jar;C:\Users\xps\.m2\repository\org\springframework\spring-aop\5.3.19\spring-aop-5.3.19.jar;C:\Users\xps\.m2\repository\org\springframework\spring-expression\5.3.19\spring-expression-5.3.19.jar;C:\Users\xps\.m2\repository\org\springframework\spring-beans\5.3.20\spring-beans-5.3.20.jar;C:\Users\xps\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\xps\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\xps"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jre-8.0.322.6-hotspot"/>
+    <property name="basedir" value="C:\Users\xps\Desktop\Maven-Project"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\xps\AppData\Local\Temp\surefire6626939454735599229\surefirebooter-20230418015023494_3.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Eclipse Adoptium\jre-8.0.322.6-hotspot\lib\resources.jar;C:\Program Files\Eclipse Adoptium\jre-8.0.322.6-hotspot\lib\rt.jar;C:\Program Files\Eclipse Adoptium\jre-8.0.322.6-hotspot\lib\sunrsasign.jar;C:\Program Files\Eclipse Adoptium\jre-8.0.322.6-hotspot\lib\jsse.jar;C:\Program Files\Eclipse Adoptium\jre-8.0.322.6-hotspot\lib\jce.jar;C:\Program Files\Eclipse Adoptium\jre-8.0.322.6-hotspot\lib\charsets.jar;C:\Program Files\Eclipse Adoptium\jre-8.0.322.6-hotspot\lib\jfr.jar;C:\Program Files\Eclipse Adoptium\jre-8.0.322.6-hotspot\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_322-b06"/>
+    <property name="user.name" value="xps"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Eclipse Adoptium\jre-8.0.322.6-hotspot\lib\endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\xps\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\xps\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_322"/>
+    <property name="user.dir" value="C:\Users\xps\Desktop\Maven-Project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jre-8.0.322.6-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\app\xps\product\21c\dbhomeXE\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Eclipse Adoptium\jre-8.0.322.6-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\CodeBlocks\MinGW\bin;C:\flex;C:\Gradle\gradle-8.0.2\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Users\xps\AppData\Local\Microsoft\WindowsApps;C:\Users\xps\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\xps\.dotnet\tools;C:\Users\xps\AppData\Roaming\npm;C:\Users\xps\Desktop\apache-maven-3.9.1\bin;C:\Users\xps\Desktop\JEE\apache-maven-3.9.1\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Temurin"/>
+    <property name="java.vm.version" value="25.322-b06"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Eclipse Adoptium\jre-8.0.322.6-hotspot\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testSomme" classname="metier.CalculTest" time="0.002"/>
+</testsuite>
